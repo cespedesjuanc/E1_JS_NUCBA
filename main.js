@@ -43,7 +43,7 @@ function mensaje() {
   let impares = [];
   /*let par_o_impar = () => { */
   for (let i = 0; i < pizza.length; i++) {
-    if (pizza[i].length % 2 == 0) {
+    if (pizza[i].length % 2 === 0) {
       pares.push(pizza[i]);
     } else {
       impares.push(pizza[i]);
